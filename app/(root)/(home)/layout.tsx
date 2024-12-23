@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import React, { ReactNode } from "react";
 
 const HomeLayout = ({ children }: { children: ReactNode }) => {

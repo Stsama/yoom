@@ -1,8 +1,6 @@
 import MeetingTypeList from "@/components/MeetingTypeList";
 import Time from "@/components/Time";
 
-import { useEffect, useState } from "react";
-
 const Home = () => {
   return (
     <section className="flex size-full flex-col gap-5 text-white">
