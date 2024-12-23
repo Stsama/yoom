@@ -19,6 +19,5 @@ export const tokenProvider = async () => {
   const issuedAt = Math.floor(Date.now() / 1000) - 60;
 
   const token = streamClient.createToken(user.id, expirationTime, issuedAt);
-  console.log(token, 'this is token');
   return token;
 };
